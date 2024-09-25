@@ -5,7 +5,11 @@
 var isValid = function(s) {
     var countSL = 0;
     var countSR = 0;
-    
+    var countSL = 0;
+    var countSR = 0;
+    var countSL = 0;
+    var countSR = 0;
+
 };
 
 module.exports = { isValid };
