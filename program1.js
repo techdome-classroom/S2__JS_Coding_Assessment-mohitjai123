@@ -31,7 +31,12 @@ var isValid = function(s) {
             break;
         }
     }
-    if(countSR!=countSL || countMR!=countML || countLL!=countLR)
+    if(countSR!=countSL || countMR!=countML || countLL!=countLR){
+      return false;
+    }
+    else {
+      return true;
+    }
 
 };
 
