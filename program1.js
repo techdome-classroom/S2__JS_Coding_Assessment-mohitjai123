@@ -31,7 +31,7 @@ var isValid = function(s) {
             break;
         }
     }
-    if(countSR!=countSL || countMR!=count)
+    if(countSR!=countSL || countMR!=countML || countLL!=countLR)
 
 };
 
