@@ -15,7 +15,7 @@ var isValid = function(s) {
             countSL++;
             break;
           case ')':
-            count
+            countSR
         }
     }
 
