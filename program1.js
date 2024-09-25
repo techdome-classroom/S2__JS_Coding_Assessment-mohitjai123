@@ -5,8 +5,8 @@
 var isValid = function(s) {
     var countSL = 0;
     var countSR = 0;
-    var countSL = 0;
-    var countSR = 0;
+    var countML = 0;
+    var countMR = 0;
     var countSL = 0;
     var countSR = 0;
 
