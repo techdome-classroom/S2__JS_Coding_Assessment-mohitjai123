@@ -26,7 +26,9 @@ var isValid = function(s) {
           case '[':
             countLL++;
             break;
-          
+          default:
+            countLR++;
+            break;
         }
     }
 
