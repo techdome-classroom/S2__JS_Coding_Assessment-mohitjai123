@@ -17,7 +17,9 @@ var isValid = function(s) {
           case ')':
             countSR++;
             break;
-          case '{'
+          case '{':
+            countML++;
+            break;
         }
     }
 
