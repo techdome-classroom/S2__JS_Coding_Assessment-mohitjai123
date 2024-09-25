@@ -15,8 +15,6 @@ var romanToInt = function(s) {
 
 let total = 0; // Initialize the total value
 let prevValue = 0; // Track the previous numeral's value
-
-// Loop through the Roman numeral string from right to left
 for (let i = s.length - 1; i >= 0; i--) {
     const currentValue = romanMap[s[i]]; // Get the integer value of the current numeral
 
