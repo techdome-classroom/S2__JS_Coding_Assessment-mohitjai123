@@ -23,7 +23,10 @@ var isValid = function(s) {
           case '}':
             countMR++;
             break;
-          case ''
+          case '[':
+            countLL++;
+            break;
+          
         }
     }
 
