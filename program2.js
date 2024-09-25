@@ -22,8 +22,6 @@ for (let i = s.length - 1; i >= 0; i--) {
     } else {
         total += currentValue;
     }
-
-    // Update the previous value for the next iteration
     prevValue = currentValue;
 }
 
