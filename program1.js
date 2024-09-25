@@ -20,6 +20,7 @@ var isValid = function(s) {
           case '{':
             countML++;
             break;
+            
         }
     }
 
