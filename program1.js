@@ -28,7 +28,7 @@ var isValid = function(s) {
             break;
           case "]":
             countLR++;
-            
+            break;
           default:
             break;
         }
