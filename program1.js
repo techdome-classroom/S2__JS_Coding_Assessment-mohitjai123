@@ -3,8 +3,9 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    var countS = 0;
-    var countSL
+    var countSL = 0;
+    var countSR = 0;
+    
 };
 
 module.exports = { isValid };
