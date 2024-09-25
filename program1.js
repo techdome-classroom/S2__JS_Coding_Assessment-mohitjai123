@@ -32,7 +32,7 @@ var isValid = function(s) {
         }
     }
     console.log(countLL, countLR, countSL, countSR, countML, countMR)
-    if(countSL!=countSR || countMR!=countML || countLL!=countLR){
+    if(countSL!=countSR || countML!=countMR || countLL!=countLR){
       return false;
     }
     else {
