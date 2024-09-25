@@ -31,6 +31,7 @@ var isValid = function(s) {
             break;
         }
     }
+    console.log(countLL, countLR)
     if(countSR!=countSL || countMR!=countML || countLL!=countLR){
       return false;
     }
