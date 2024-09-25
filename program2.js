@@ -14,9 +14,9 @@ var romanToInt = function(s) {
 };
 
 let total = 0; 
-let prevValue = 0; // Track the previous numeral's value
+let prevValue = 0;
 for (let i = s.length - 1; i >= 0; i--) {
-    const currentValue = romanMap[s[i]]; // Get the integer value of the current numeral
+    const currentValue = romanMap[s[i]];
 
     // If the current value is less than the previous value, subtract it
     // Otherwise, add it
