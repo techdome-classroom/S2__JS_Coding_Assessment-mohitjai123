@@ -3,43 +3,43 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    var countSL = 0;
-    var countSR = 0;
-    var countML = 0;
-    var countMR = 0;
-    var countLL = 0;
-    var countLR = 0;
-    for(i=0; i<s.length; i++){
-        switch(s[i]){
-          case '(':
-            countSL++;
-            break;
-          case ')':
-            countSR++;
-            break;
-          case '{':
-            countML++;
-            break;
-          case "}":
-            countMR++;
-            break;
-          case '[':
-            countLL++;
-            break;
-          case "]":
-            countLR++;
-            break;
-          default:
-            break;
-        }
-    }
-    console.log(countLL, countLR, countSL, countSR, countML, countMR)
-    if(countSL!==countSR || countML!==countMR || countLL!==countLR){
-      return false;
-    }
-    else {
-      return true;
-    }
+  var countSL = 0;
+  var countSR = 0;
+  var countML = 0;
+  var countMR = 0;
+  var countLL = 0;
+  var countLR = 0;
+  for(i=0; i<s.length; i++){
+      switch(s[i]){
+        case '(':
+          countSL++;
+          break;
+        case ')':
+          countSR++;
+          break;
+        case '{':
+          countML++;
+          break;
+        case "}":
+          countMR++;
+          break;
+        case '[':
+          countLL++;
+          break;
+        case "]":
+          countLR++;
+          break;
+        default:
+          break;
+      }
+  }
+  console.log(countLL, countLR, countSL, countSR, countML, countMR)
+  if(countSL!==countSR || countML!==countMR || countLL!==countLR){
+    return false;
+  }
+  else {
+    return true;
+  }
 
 };
 
