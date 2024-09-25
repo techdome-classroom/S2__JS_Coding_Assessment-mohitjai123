@@ -7,7 +7,7 @@ var isValid = function(s) {
     for(i=0; i<s.length; i++){
         switch(s[i]){
           case '(':
-            counts.
+            counts[]
         }
     }
 
