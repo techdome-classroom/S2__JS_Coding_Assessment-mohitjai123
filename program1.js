@@ -20,7 +20,10 @@ var isValid = function(s) {
           case '{':
             countML++;
             break;
-            
+          case '}':
+            countMR++;
+            break;
+          case ''
         }
     }
 
