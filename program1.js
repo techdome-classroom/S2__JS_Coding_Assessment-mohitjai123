@@ -31,7 +31,7 @@ var isValid = function(s) {
             break;
         }
     }
-    if(coun)
+    if(countSR!=coun)
 
 };
 
